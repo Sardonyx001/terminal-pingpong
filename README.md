@@ -23,5 +23,8 @@ How to play:
 * Press enter to exit
 
 ---
+demo:
+
+---
 
 That's all. I just wanted to try and use [curses](https://docs.python.org/3/howto/curses.html "Curses Programming with Python") to create something. Will likely OOP this just for the heck of it.
