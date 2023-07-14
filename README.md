@@ -20,7 +20,8 @@ How to play:
 
 * Press 0-9 keys to toggle each box
 * Press c to clear all toggled boxes
-* Press enter to exit
+* Press q to exit
+* Press up or down to change the framerate
 
 ---
 demo:
