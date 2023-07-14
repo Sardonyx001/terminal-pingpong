@@ -25,6 +25,10 @@ How to play:
 ---
 demo:
 
+
+https://github.com/Sardonyx001/terminal-pingpong/assets/41418470/7c0e275e-8ea4-4e1b-84cd-9c5891769c3c
+
+
 ---
 
 That's all. I just wanted to try and use [curses](https://docs.python.org/3/howto/curses.html "Curses Programming with Python") to create something. Will likely OOP this just for the heck of it.
