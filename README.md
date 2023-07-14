@@ -1,2 +1,27 @@
-# terminal-pingpong
-The world's sh*ttiest ping pong game
+# 1d-pong
+
+The world's 💩iest ping pong game
+
+---
+How to run:
+
+```python
+python3 app.py
+```
+
+or
+
+```python
+./app.py
+```
+
+---
+How to play:
+
+* Press 0-9 keys to toggle each box
+* Press c to clear all toggled boxes
+* Press enter to exit
+
+---
+
+That's all. I just wanted to try and use [curses](https://docs.python.org/3/howto/curses.html "Curses Programming with Python") to create something. Will likely OOP this just for the heck of it.
