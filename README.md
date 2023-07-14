@@ -25,9 +25,7 @@ How to play:
 ---
 demo:
 
-
-https://github.com/Sardonyx001/terminal-pingpong/assets/41418470/7c0e275e-8ea4-4e1b-84cd-9c5891769c3c
-
+<https://github.com/Sardonyx001/terminal-pingpong/assets/41418470/7c0e275e-8ea4-4e1b-84cd-9c5891769c3c>
 
 ---
 
