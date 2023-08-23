@@ -12,6 +12,18 @@ class Box:
         self.shape = self.shapes[self.is_toggled]
         self.is_toggled = not self.is_toggled
 
+class Container:
+    def __init__(self, boxes):
+        self.boxes = boxes
+
+    def move_up(self):
+        if self.boxes:
+            self.boxes[0].toggle()
+
+    def move_down(self):
+        if self.boxes:
+            self.boxes[-1].toggle()
+
 class TerminalAnimation:
     def __init__(self, num_boxes, boxes):
         self.num_boxes = num_boxes
@@ -133,5 +145,6 @@ if __name__ == "__main__":
     num_boxes = 10
     box_shapes = ["[ ]"] * num_boxes  # List of box shapes (e.g., "[ ]", "( )", "| |")
     boxes = [Box(shape) for shape in box_shapes]
+
     animation = TerminalAnimation(num_boxes, boxes)
     curses.wrapper(animation.main)
